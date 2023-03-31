@@ -1,0 +1,234 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.navbar .container .collapse .navbar-nav .nav-item {
+    margin-right: 20px;
+}
+
+.heroSection {
+    background-color: #f1f3ff;
+    margin-bottom: 104px;
+    height: 430px;
+}
+
+.heroSection .text {
+    width: 40%;
+    padding-top: 100px;
+    margin-left: 120px;
+}
+
+.heroSection .image {
+    width: 50%;
+}
+
+.heroSection .text .text1 p {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 150%;
+}
+
+.heroSection .text .text2 p {
+    width: 468px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 23px;
+}
+
+.ourServices {
+    margin-bottom: 104px;
+}
+
+.ourServices .image {
+    width: 468px;
+    margin-right: 25px;
+}
+.ourServices .textServices {
+    width: 468px;
+    margin-left: 25px;
+}
+
+.ourServices .textServices .titleServices {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.ourServices .textServices .detailsServices {
+    width: 459px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.whyUs {
+    margin-bottom: 104px;
+}
+
+.whyUs .titleWhyus .whyTitle p {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.whyUs .whyInfo p {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.whyUs .whyCard .card {
+    width: 20%;
+}
+
+.whyUs .whyCard .card .card-body .title .card-title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.whyUs .whyCard .card .card-body .card-text {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.testimoni .testimoniTitle .testiText1 p {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.testimoni .testimoniTitle .testiText2 p {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.testimoni {
+    margin-bottom: 104px;
+}
+
+.order {
+    margin-bottom: 104px;
+}
+
+.faq {
+    margin-bottom: 104px;
+}
+
+.faq .titleFAQ {
+    width: 50%;
+}
+
+.faq .titleFAQ .faqTitle p {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.faq .titleFAQ .faqInfo p {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.faq .faqList {
+    width: 70%;
+    margin-bottom: 20px;
+}
+.faq .faqList .accordion .accordion-item {
+    margin-bottom: 10px;
+}
+
+.footer {
+    margin-bottom: 30px;
+}
+
+.footer .footer1,
+.footer2,
+.footer3,
+.footer4 {
+    margin-right: 100px;
+}
+
+@media screen and (max-width: 576px) {
+    .navbar .container .collapse .navbar-nav .nav-item {
+        display: none;
+    }
+
+    .heroSection {
+        height: 650px;
+    }
+
+    .heroSection .text {
+        width: 60%;
+        padding-top: 0;
+        margin-left: 30px;
+    }
+
+    .heroSection .image {
+        width: 95%;
+        margin-left: 29px;
+    }
+
+    .heroSection {
+        flex-direction: column;
+    }
+
+    .ourServices {
+        flex-direction: column;
+    }
+
+    .ourServices .image {
+        margin: 10px auto;
+    }
+
+    .ourServices .textServices .titleServices,
+    .detailsServices,
+    .listServices {
+        margin: 10px auto;
+    }
+
+    .whyUs .whyTitle,
+    .whyInfo {
+        text-align: center;
+    }
+
+    .whyUs .whyCard .card {
+        width: 100%;
+    }
+
+    .whyUs .whyCard {
+        flex-direction: column;
+    }
+
+    .whyUs .whyCard .card {
+        margin: 10px auto;
+    }
+
+    .faq {
+        flex-direction: column;
+    }
+
+    .faq .titleFAQ {
+        width: 100%;
+        text-align: center;
+    }
+    .faq .faqList {
+        width: 100%;
+    }
+
+    .faq .faqList .accordion .accordion-item {
+        margin-bottom: 20px;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .footer .footer {
+        margin-bottom: 30px;
+    }
+}

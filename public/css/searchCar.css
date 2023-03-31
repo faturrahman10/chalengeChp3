@@ -1,0 +1,199 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.navbar .container .collapse .navbar-nav .nav-item {
+    margin-right: 20px;
+}
+
+.searchCar .input select.form-select option:hover {
+    background-color: #5cb85f;
+}
+
+.heroSection {
+    background-color: #f1f3ff;
+    margin-bottom: 150px;
+    height: 430px;
+}
+
+.heroSection .text {
+    width: 40%;
+    padding-top: 100px;
+    margin-left: 120px;
+}
+
+.heroSection .image {
+    width: 50%;
+}
+
+.heroSection .text .text1 p {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 150%;
+}
+
+.heroSection .text .text2 p {
+    width: 468px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 23px;
+}
+
+.searchCar {
+    position: absolute;
+    width: 1047px;
+    max-width: 80%;
+    padding: 20px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 500px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+}
+
+.searchCar .labelForm label {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 5px;
+}
+
+.searchCar .form1 {
+    width: 211px;
+    height: 36px;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.searchCar .input1 select:focus,
+.searchCar .input3 select:focus,
+.searchCar .input4 select:focus {
+    box-shadow: none;
+    border: 1px solid #5cb85f;
+}
+
+.searchCar .input2 .formdate input {
+    width: 211px;
+    height: 36px;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    outline: none;
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+
+.searchCar .input2 .formdate input:hover {
+    box-shadow: none;
+    border: 1px solid #5cb85f;
+}
+
+.searchCar .input2 {
+    margin-top: -16px;
+}
+
+.searchCar .input1 select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url("../Assets/arrowbawa.png");
+    background-position: right 10px center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    padding-right: 25px;
+}
+
+.searchCar .input3 select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url("../Assets/jam.png");
+    background-position: right 10px center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    padding-right: 25px;
+}
+
+.searchCar .input4 select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url("../Assets/jmlpenumpang.png");
+    background-position: right 10px center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    padding-right: 25px;
+}
+
+.searchCar .input button {
+    margin-top: 6px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+    line-height: 20px;
+    text-decoration: none;
+    border: none;
+    height: 36px;
+    background-color: #5cb85f;
+    border-radius: 2px;
+}
+
+.footer {
+    margin-bottom: 30px;
+}
+
+.footer .footer1,
+.footer2,
+.footer3,
+.footer4 {
+    margin-right: 100px;
+}
+
+@media screen and (max-width: 576px) {
+    .navbar .container .collapse .navbar-nav .nav-item {
+        display: none;
+    }
+
+    .heroSection {
+        height: 650px;
+        margin-bottom: 330px;
+    }
+
+    .heroSection .text {
+        width: 60%;
+        padding-top: 0;
+        margin-left: 30px;
+    }
+
+    .heroSection .image {
+        width: 95%;
+        margin-left: 29px;
+    }
+
+    .heroSection {
+        flex-direction: column;
+    }
+
+    .searchCar {
+        flex-direction: column;
+        top: 850px;
+    }
+
+    .searchCar .form1 {
+        width: 300px;
+    }
+
+    .searchCar .input .formdate input {
+        width: 300px;
+    }
+    .footer {
+        flex-direction: column;
+    }
+
+    .footer .footer {
+        margin-bottom: 30px;
+    }
+}
